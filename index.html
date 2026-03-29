@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kauê Gatti - Backend Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="cursor">&lt;/&gt;</div>
+<div class="background">
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hexagon-container">
+            <div class="hexagon hexagon-1">
+                <svg viewBox="0 0 100 100">
+                    <polygon points="50,2 95,25 95,75 50,98 5,75 5,25" fill="none" stroke="#8B5CF6" stroke-width="2"/>
+                </svg>
+            </div>
+            <div class="hexagon hexagon-2">
+                <svg viewBox="0 0 100 100">
+                    <polygon points="50,2 95,25 95,75 50,98 5,75 5,25" fill="none" stroke="#000000" stroke-width="2"/>
+                </svg>
+            </div>
+        </div>
+        <div class="hero-content">
+            <h1 class="name">Kauê Gatti</h1>
+            <p class="role">Backend Developer</p>
+            <p class="description">Construindo APIs robustas e sistemas escaláveis</p>
+            <div class="hero-buttons">
+                <a href="#projetos" class="btn btn-primary">Ver Projetos</a>
+                <a href="#contato" class="btn btn-secondary">Contato</a>
+            </div>
+            <div class="powered-by">
+                <span>Powered by</span>
+                <img src="images/java.png" alt="Java" class="java-icon">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="sobre">
+        <div class="about-container">
+            <div class="about-left">
+                <h2 class="section-title">Sobre Mim</h2>
+                <div class="about-text">
+                    <p>Desenvolvedor Backend com foco em arquitetura de sistemas e performance. Trabalho principalmente
+                        com Java, Spring Boot, bancos de dados relacionais e não-relacionais, na criação de APIs Restful,
+                        sistemas de gestão e tendo também experiência com PHP e Javascript para a criação de páginas web dinâmicas.</p>
+                </div>
+            </div>
+            <div class="tech-stack">
+                <h3 class="tech-title">Tech Stack</h3>
+                <div class="tech-grid">
+                    <span class="tech-tag" style="color: #0062ff;">PostgreSQL</span>
+                    <span class="tech-tag" style="color: #0062ff;">MySQL</span>
+                    <span class="tech-tag" style="color: #fff;">GitHub / Actions</span>
+                    <span class="tech-tag" style="color: #2dc40c;">Spring Boot</span>
+                    <span class="tech-tag" style="color: #0062ff;">Docker</span>
+                    <span class="tech-tag" style="color: #fa7900;">Postman</span>
+                    <span class="tech-tag" style="color: #8B5CF6;">IntelliJ IDEA</span>
+                    <span class="tech-tag" style="color: #ff0000;">Java</span>
+                    <span class="tech-tag" style="color: #fa7900;">Git</span>
+                    <span class="tech-tag" style="color: #fff;">CI/CD</span>
+                    <span class="tech-tag" style="color: #fff;">Scrum</span>
+                    <span class="tech-tag" style="color: #8B5CF6;">JUnit</span>
+                    <span class="tech-tag" style="color: #fff;">Mockito</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos -->
+    <section class="projects" id="projetos">
+        <h2 class="section-title">Projetos</h2>
+        <div class="projects-grid">
+            <!-- Projeto 1: Lerout -->
+            <div class="project-card">
+                <img src="images/lerout.png" alt="Lerout - Sistema PDV/ERP" class="project-image">
+                <div class="project-info">
+                    <h3>Lerout - Sistema PDV/ERP</h3>
+                    <p>Sistema PDV/ERP para rotisserias com JavaFX e SQLite. Gerenciamento de pedidos, produtos,
+                        clientes e relatórios diários.</p>
+                    <a href="https://github.com/KaueGatti/Lerout" target="_blank" class="github-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                        </svg>
+                        Ver no GitHub
+                    </a>
+                </div>
+            </div>
+
+            <!-- Projeto 2: Workether -->
+            <div class="project-card">
+                <img src="images/workether.png" alt="Workether - Sistema de Gestão" class="project-image">
+                <div class="project-info">
+                    <h3>Workether - Sistema de Gestão</h3>
+                    <p>Plataforma de gerenciamento de projetos e tarefas com chat, notificações e controle de
+                        equipes.</p>
+                    <a href="https://github.com/KaueGatti/Projeto-Integrador---Senac/tree/main/Desenvolvimento%20Web/Workether"
+                       target="_blank" class="github-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                        </svg>
+                        Ver no GitHub
+                    </a>
+                </div>
+            </div>
+
+            <!-- Projeto 3: PlayerLab -->
+            <div class="project-card">
+                <div class="tech-icons-row">
+                    <img src="images/java.png" alt="Java" class="tech-icon">
+                    <img src="images/spring.png" alt="Spring" class="tech-icon">
+                    <img src="images/postgres.png" alt="PostgreSQL" class="tech-icon">
+                </div>
+                <div class="project-info">
+                    <h3>PlayerLab - Backend</h3>
+                    <p>Backend em desenvolvimento com Java e Spring Boot para plataforma que conecta jogadores de
+                        futebol a clubes. APIs REST, autenticação e gerenciamento de perfis.</p>
+                    <a href="https://github.com/abarbarapeslo/backend-playerlab" target="_blank" class="github-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                        </svg>
+                        Ver no GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="contact" id="contato">
+        <h2 class="section-title">Vamos trabalhar juntos?</h2>
+        <p class="contact-subtitle">Entre em contato para oportunidades ou colaboração</p>
+        <div class="contact-buttons">
+            <a href="mailto:kauegattti@gmail.com" target="_blank" class="btn btn-outline">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                Enviar Proposta
+            </a>
+            <a href="https://wa.me/5519998719313" target="_blank" class="btn btn-whatsapp">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                </svg>
+                Enviar Mensagem
+            </a>
+            <a href="https://linkedin.com/in/kauegatti" target="_blank" class="btn btn-linkedin">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+                Conectar
+            </a>
+            <a href="https://www.instagram.com/kauegattiv" target="_blank" class="btn btn-instagram">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+                Seguir
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Kauê Vinícius Gatti. Todos os direitos reservados.</p>
+    </footer>
+</div>
+</body>
+<script src="js/script.js"></script>
+</html>
